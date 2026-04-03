@@ -1,0 +1,21 @@
+# CLAUDE.local.md — Personal Overrides
+# Copy this file to CLAUDE.local.md and customize for your environment.
+# CLAUDE.local.md is gitignored and appended after CLAUDE.md each session.
+
+## My Environment
+- Terminal: TODO (e.g., iTerm2, Windows Terminal, kitty)
+- Shell: TODO (e.g., zsh with oh-my-zsh, fish)
+- Editor: TODO (e.g., VS Code, Neovim)
+
+## Local Ports
+- Dev server: http://localhost:3000
+- API server: http://localhost:8080
+- Database: localhost:5432
+
+## Personal Preferences
+- I prefer concise explanations over verbose ones
+- When fixing bugs, show me the root cause before the fix
+- Run tests after every code change
+
+## Local MCP Servers
+- I have a personal Notion MCP server configured in ~/.claude.json

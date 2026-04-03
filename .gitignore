@@ -1,0 +1,51 @@
+# Claude Code local overrides (personal, not committed)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+.venv/
+__pycache__/
+*.pyc
+
+# Build output
+dist/
+build/
+out/
+*.o
+*.so
+*.dylib
+
+# Test & coverage
+coverage/
+.nyc_output/
+*.lcov
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE (uncomment .vscode/ if your team commits shared settings)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secrets (never commit these)
+secrets/
+*.pem
+*.key
+credentials.json
